@@ -56,9 +56,11 @@ document.getElementById("caForm").addEventListener("submit", async function (e) 
 
     const resultText = await response.text();
     if (resultText.toLowerCase().includes("success")) {
-      statusEl.textContent = "✅ Form submitted successfully!";
-      form.reset();
-    } else {
+  statusEl.textContent = "✅ Form submitted successfully!";
+  alert("🎉 Form submitted successfully!");
+  form.reset();
+}
+ else {
       statusEl.textContent = "❌ Submission failed: " + resultText;
     }
   } catch (error) {
