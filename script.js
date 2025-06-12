@@ -30,7 +30,7 @@ window.addEventListener("load", () => {
   countUp(document.getElementById("impressionsCount"), 55000, "+");
 });
 
-const scriptURL = "https://script.google.com/macros/s/YOUR_DEPLOYED_SCRIPT_URL/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbzJQervZFO6R1vh8DkiEdvePzmc71s7iS_DNKjRQ5maQNRvLJmXIj_0D6fufdDLLaB1/exec";
 
 document.getElementById("caForm").addEventListener("submit", async function (e) {
   e.preventDefault();
